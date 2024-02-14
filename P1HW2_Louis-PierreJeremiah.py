@@ -13,10 +13,14 @@ food = float(input("Last, how much do you need for food?: "))
 print("------------Travel Expenses------------")
 print(f"Location: {destination}")
 print(f'Initial budget: ${budget}')
+
 print()
+
 print(f'Fuel: ${gas}')
 print(f"Accommodation: ${accommodation}")
 print(f"Food: ${food}")
+
 print()
+
 print(f"Remaining balance: ${budget - sum([gas, accommodation, food])}")
 
