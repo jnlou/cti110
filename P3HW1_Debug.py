@@ -2,12 +2,10 @@
 # 03/14/24
 # P3HW1
 # This program takes a number of grades, then determines the average and displays the letter grade that represents the average.
-# This was actually more fun than it should've been lol
 
 
 # Enter grades for six modules, and add them to a list 
 
-# this technically still counts as debugging :P
 grades = []
 for i in range(1,7):
     module = float(input(f'Enter grade for Module {i}: ').strip())
