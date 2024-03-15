@@ -8,6 +8,7 @@
 
 input_year = int(input().strip())
 # turned the number input into a string for the purpose of referring to the index of its ending numbers
+# This means if the year given is a century year, then see if it's divisible by 400
 if str(input_year)[-2:] == '00':
     if input_year % 400 != 0:
         print(f"{input_year} - not a leap year")
