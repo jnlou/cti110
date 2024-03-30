@@ -10,7 +10,6 @@
 # Declare Real score, average, sum = 0
 # Declare String grade = "", current_letter
 
-# (wasn't sure how to display a list comprehension in pseudocode so i'll demonstrate a longer variation of such)
 # While counter <= 10
 #   For i = 90 To 100 
 #     Set letter_and_grade["A"]numbers[counter] = i
